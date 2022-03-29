@@ -44,11 +44,11 @@ az acr login -n $AZ_CONTAINER_REGISTRY
 ```
 6. Azure Kubernetes Service를 생성합니다. 
 ```
-"az aks create \
+az aks create \
     --resource-group $AZ_RESOURCE_GROUP \
     --name $AZ_KUBERNETES_CLUSTER \
     --attach-acr $AZ_CONTAINER_REGISTRY \
     --dns-name-prefix=$AZ_KUBERNETES_CLUSTER_DNS_PREFIX \
     --generate-ssh-keys \
-    | jq"
+    | jq
 ```
