@@ -3,7 +3,8 @@ Azure Immersion Workshop 진행을 위한 실습 코드
 
 
 **[소스 코드]**
-아래 Azure-Sample 코드를 활용하였습니다. 
+
+아래 Azure-Sample 코드를 활용하였습니다.   
 
 https://github.com/Azure-Samples/containerize-and-deploy-Java-app-to-Azure.git
 
